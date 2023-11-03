@@ -299,6 +299,70 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/* Interships section styling */
+.Internships .title::after{
+    content: "what i know";
+}
+.Internships .Internships-content .column{
+    width: calc(50% - 30px);
+}
+.Internships .Internships-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.Internships .Internships-content .left p{
+    text-align: justify;
+}
+.Internships .Internships-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.Internships .Internships-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.Internships .Internships-content .right .bars{
+    margin-bottom: 15px;
+}
+.Internships .Internships-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Internships .Internships-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.Internships .Internships-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.Internships .Internships-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.Internships-content .right .html::before{
+    background-image: url('ml_frame_photo.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* skills section styling */
 .skills .title::after{
     content: "what i know";
